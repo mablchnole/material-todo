@@ -1,0 +1,7 @@
+<form>
+    <mat-form-field>
+        <input matInput placeholder="Enter task:" type="text" name="todoText" [(ngModel)]="todoText" value={{todoText}}>
+    </mat-form-field>
+    <button (click)="addToDo()" mat-raised-button color="primary">Submit</button>
+</form>
+

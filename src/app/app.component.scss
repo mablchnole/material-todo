@@ -1,0 +1,18 @@
+.App {
+    margin: 0 auto;
+    width: 329px;
+}
+mat-card {
+    min-height: 400px;
+}
+.mat-list .mat-list-item {
+    border-bottom: 1px solid lightgrey;
+    width: 281px;
+}
+.mat-list .mat-list-item ::ng-deep .mat-list-item-content {
+    padding: 0;
+}
+.mat-list .mat-list-item ::ng-deep .mat-list-item-content .Todo-text {
+    display: inline-block;
+    width: 237px;
+}
